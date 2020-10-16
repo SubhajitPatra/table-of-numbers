@@ -3,16 +3,19 @@
 
 int main()
 {
-    int num,x;
-    printf("input a number I will tell you its table.\n");
-    scanf("%d",&num);
-    printf("input the multiple.\n");
-    scanf("%d",&x);
-    printf("Table of %d\n",num);
-    printf("_____________________\n");
-    for(int multiple=1;multiple<x;multiple= multiple+1){
-    printf("%d X %d =%d\n",num,multiple,num*multiple);
-    }
+    int a;
+    printf("tell me a number I will tell you it's table.\n");
+    scanf("%d",&a);
+    printf("...................\n");
+    printf("Table of %d\n",a);
+    printf("....................\n");
+     int b=1;
+     while(b<11){
+        printf("%d X %d = %d\n",a,b,a*b);
+        b++;
+     }
+
+
 
     return 0;
 }
